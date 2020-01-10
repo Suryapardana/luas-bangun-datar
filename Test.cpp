@@ -13,7 +13,7 @@ int main(){
     cout<<"Silahkan Pilih Program 1-7"<<endl;
     cout<<"1. Hitung Luas Lingkaran"<<endl;
     cout<<"2. Hitung Volume Kerucut"<<endl;
-    cout<<"3. Konversi Suhu Celcius -> Kelvin, Fahrenheit"<<endl;
+    cout<<"3. Konversi Suhu Celcius -> Kelvin, Fahrenheit, Reamur"<<endl;
     cout<<"4. Hitung Luas Persegi Panjang"<<endl;
     cout<<"5. Hitung Volume Tabung"<<endl;
     cout<<"6. Contoh Looping"<<endl;
