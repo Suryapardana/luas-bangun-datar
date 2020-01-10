@@ -15,8 +15,9 @@ int main(){
     cout<<"2. Hitung Volume Kerucut"<<endl;
     cout<<"3. Konversi Suhu"<<endl;
     cout<<"4. Hitung Luas Persegi Panjang"<<endl;
-    cout<<"5. Contoh Looping"<<endl;
-    cout<<"6. Keluar"<<endl;
+    cout<<"5. Hitung Volume Tabung"<<endl;
+    cout<<"6. Contoh Looping"<<endl;
+    cout<<"7. Keluar"<<endl;
     cout << "Pilih Menu = ";
     cin>>i;
  
@@ -24,7 +25,7 @@ int main(){
         case 1:
         cout<<"Masukkan Jari-jari Lingkaran = ";
         cin>>r;
-        luas=phi*r*r;
+          luas=phi*r*r;
         cout<<"Luas Lingkaran = "<<luas<<" cm2";
         break;
       
@@ -60,8 +61,16 @@ int main(){
         cout<< "Luas persegi panjang: "<<luas;
         cout<< "\n\n";
         break;
-      
         case 5:
+        cout<<"Masukan jari-jari : ";
+        cin>>r;
+        cout<<"Masukan tinggi : ";
+        cin>>t;
+        volume=22*r*r*t/7;
+        cout<<"Jadi Volume Tabung dengan jari-jari "<<r<<" dan tinggi "<<t<<" adalah : "<<volume;
+        break;
+      
+        case 6:
         while( a < 100 ) {
         cout << "Angga Gans: " << a << endl;
         a++;
