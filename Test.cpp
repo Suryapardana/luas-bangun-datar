@@ -10,7 +10,7 @@ int main(){
     per=0.3;
     
     ulang:
-    cout<<"Silahkan Pilih Program 1-4"<<endl;
+    cout<<"Silahkan Pilih Program 1-7"<<endl;
     cout<<"1. Hitung Luas Lingkaran"<<endl;
     cout<<"2. Hitung Volume Kerucut"<<endl;
     cout<<"3. Konversi Suhu"<<endl;
@@ -61,6 +61,7 @@ int main(){
         cout<< "Luas persegi panjang: "<<luas;
         cout<< "\n\n";
         break;
+      
         case 5:
         cout<<"Masukan jari-jari : ";
         cin>>r;
@@ -77,7 +78,7 @@ int main(){
         }
         break;
       
-        case 6:
+        case 7:
         keluar:
         cout<< "\n Terima kasih, sampai jumpa\n";
         break;
