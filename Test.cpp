@@ -46,7 +46,7 @@ int main(){
         break;
         case 4:
         cout<< "***Luas Persegi panjang*** \n";
-        cout<< "===========================\n";
+        cout<< 
         cout<< "Masukkan panjang    : ";
         cin>>p;
         cout<< "Masukkan lebar      : ";
@@ -56,7 +56,7 @@ int main(){
         cout<< "\n\n";
         break;
         case 5:
-        while( a < 9999999999999999 ) {
+        while( a < 100 ) {
         cout << "Angga Gans: " << a << endl;
         a++;
         }
