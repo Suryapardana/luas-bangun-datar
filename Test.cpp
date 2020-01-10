@@ -8,6 +8,7 @@ int main(){
     float a,t,p,l,r,C,F,K,R,phi,per,volume,luas;
     phi=3.14;
     per=0.3;
+    
     ulang:
     cout<<"Silahkan Pilih Program 1-4"<<endl;
     cout<<"1. Hitung Luas Lingkaran"<<endl;
@@ -18,6 +19,7 @@ int main(){
     cout<<"6. Keluar"<<endl;
     cout << "Pilih Menu = ";
     cin>>i;
+ 
     switch(i){
         case 1:
         cout<<"Masukkan Jari-jari Lingkaran = ";
@@ -25,6 +27,7 @@ int main(){
         luas=phi*r*r;
         cout<<"Luas Lingkaran = "<<luas<<" cm2";
         break;
+      
         case 2:
         cout<<"Masukkan jari jari :";
         cin>>r;
@@ -33,6 +36,7 @@ int main(){
         volume=per*phi*r*r*t;
         cout<<"Volume Kerucut adalah :"<<volume;
         break;
+      
         case 3:
         cout<<"Masukkan Suhu (Celcius) : ";
         cin>>C;
@@ -44,6 +48,7 @@ int main(){
         cout<<endl;
         cout<<"Kelvin     : "<<K<<endl<<"Fahrenheit : "<<F<<endl<<"Reamur     : "<<R;
         break;
+      
         case 4:
         cout<< "***Luas Persegi panjang*** \n";
         cout<< 
@@ -55,19 +60,23 @@ int main(){
         cout<< "Luas persegi panjang: "<<luas;
         cout<< "\n\n";
         break;
+      
         case 5:
         while( a < 100 ) {
         cout << "Angga Gans: " << a << endl;
         a++;
         }
         break;
+      
         case 6:
         keluar:
         cout<< "\n Terima kasih, sampai jumpa\n";
         break;
+      
         char lagi;
         cout<<"\n\n\nApakah ingin masuk ke menu lagi? (y/t)";cin>>lagi;
         cout<<endl;
+      
         if(lagi=='y'||lagi=='Y')
         goto ulang;
         default:
